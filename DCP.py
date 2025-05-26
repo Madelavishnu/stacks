@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-df = pd.read_csv('C:/Users/SAI RAM/Downloads/archive (1).zip')  
+df = pd.read_csv('C:/Users/SAI RAM/Downloads/archive (1).zip')  #change folder path its a titanic dataset
 print("Missing Values Per Column:")
 
 print(df.isnull().sum())
@@ -47,6 +47,7 @@ def remove(df,colu):
 for col in num_coloumn:
   df = remove(df,col)
 
+#updated visulaization
 
 import matplotlib.pyplot as plt
 import seaborn as sns
