@@ -1,3 +1,5 @@
+#data cleaning and preprocessing 
+
 import pandas as pd
 import numpy as np
 df = pd.read_csv('C:/Users/SAI RAM/Downloads/archive (1).zip')  #change folder path its a titanic dataset
